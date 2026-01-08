@@ -4,36 +4,12 @@ import BlogBackgroundAnimation from './BlogBackgroundAnimation.vue'
 
 const posts = [
   {
-    title: "Mastering Vue 3 Script Setup",
-    date: "Jan 05",
+    title: "Master One Build with Two",
+    date: "Jan 08",
     year: "2026",
-    link: "/blog/sample-post",
-    tags: ["Vue", "Composition API"],
+    link: "/blog/master-one-build-with-two",
+    tags: ["Vue", "React", "Comparison"],
     id: "LOG_001"
-  },
-  {
-    title: "The Future of Web Styling",
-    date: "Dec 12",
-    year: "2025",
-    link: "#",
-    tags: ["CSS", "Design"],
-    id: "LOG_002"
-  },
-  {
-    title: "Building Scalable Go Services",
-    date: "Nov 28",
-    year: "2025",
-    link: "#",
-    tags: ["Go", "Backend"],
-    id: "LOG_003"
-  },
-  {
-    title: "Understanding Micro-interactions",
-    date: "Oct 15",
-    year: "2025",
-    link: "#",
-    tags: ["UX", "Animation"],
-    id: "LOG_004"
   }
 ]
 
@@ -105,7 +81,7 @@ const years = Object.keys(groupedPosts).sort((a, b) => Number(b) - Number(a))
 
                    <!-- Action Icon -->
                    <div class="hidden md:flex items-center justify-center w-10 h-10 rounded-full border border-white/10 group-hover:border-purple-500/50 group-hover:bg-purple-900/20 transition-all">
-                      <span class="i-carbon-arrow-right text-gray-500 group-hover:text-purple-400 text-xl group-hover:translate-x-1 transition-transform"></span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-500 group-hover:text-purple-400 group-hover:translate-x-1 transition-transform"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                    </div>
                 </div>
                 

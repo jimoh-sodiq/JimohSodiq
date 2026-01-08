@@ -33,7 +33,7 @@ const logId = computed(() => {
     <div class="relative z-10 mb-8 flex justify-between items-start">
         <a href="/blog/" class="group flex items-center gap-3 px-4 py-2 bg-cyan-900/10 border border-cyan-500/30 rounded hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300">
             <div class="flex items-center justify-center w-6 h-6 rounded-full bg-cyan-500/10 group-hover:bg-cyan-500/20">
-                <span class="i-carbon-arrow-left text-cyan-400 text-sm group-hover:-translate-x-1 transition-transform"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-cyan-400 group-hover:-translate-x-1 transition-transform"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
             </div>
             <span class="text-xs font-mono font-bold text-cyan-300 group-hover:text-cyan-200 tracking-widest uppercase">
                 Return_To_Base
@@ -60,7 +60,7 @@ const logId = computed(() => {
        <!-- Date -->
        <div class="flex items-center gap-3">
           <div class="p-2 rounded bg-white/5 border border-white/10 text-purple-400">
-             <span class="i-carbon-calendar text-lg"></span>
+             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-purple-400"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
           </div>
           <div class="flex flex-col">
              <span class="text-[10px] text-gray-500 font-mono uppercase tracking-wider">Timestamp</span>
