@@ -14,7 +14,7 @@ export default defineConfig({
     head: [
         ['script', {}, "document.documentElement.classList.add('dark')"]
     ],
-    title: "Dev Portfolio",
+    title: "Jimoh Sodiq",
     description: "A premium personal portfolio for a fullstack engineer.",
     themeConfig: {
         nav: [

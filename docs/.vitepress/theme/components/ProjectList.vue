@@ -13,27 +13,49 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "E-commerce Platform",
-    description: "A high-performance online store built with Go and Vue 3. Features real-time inventory updates, Stripe integration, and a custom admin dashboard.",
-    tags: ["Go", "Vue 3", "PostgreSQL"],
-    images: ["/projects/ecom-1.png", "/projects/ecom-2.png"],
+    title: "SimplifiedIQ",
+    description: "AI-powered assessment platform for tamper-proof testing and certifications. Features automated grading, identity verification, and scalable delivery.",
+    tags: ["Vue", "React", "Tauri", "Crxjs"],
+    images: ["/projects/simplifiediq.png", "/projects/simplifiediq-2.png", "/projects/simplifiediq-3.png"],
     year: "2025"
   },
   {
-    title: "Task Management AI",
-    description: "Intelligent task organizer using OpenAI API. Auto-categorizes tasks, suggests priorities, and learns from user behavior.",
-    tags: ["TypeScript", "OpenAI", "Node.js"],
-    images: ["/projects/ai-1.png", "/projects/ai-2.png"],
+    title: "Embervale",
+    description: "A multi-platform and free Twitch RPG extension that gamifies the viewing experience. Allows viewers to quest together with streamers in an interactive overlay.",
+    tags: ["Vue", "RPG", "Gaming"],
+    images: ["/projects/embervale-1.png", "/projects/embervale-2.png", "/projects/embervale-3.png"],
     year: "2024"
   },
   {
-    title: "VitePress Art Theme",
-    description: "A custom, artistic theme for documentation sites. Focuses on typography, whitespace, and micro-interactions.",
-    tags: ["VitePress", "Tailwind", "Design"],
-    images: ["/projects/ecom-1.png"], // Reuse for demo
+    title: "Seamailer",
+    description: "All-in-one email marketing platform to automate campaigns and scale revenue. Features drag-and-drop builder, audience segmentation, and automated funnels.",
+    tags: ["Vue", "Node.js", "Automation"],
+    images: ["/projects/seamailer-1.png", "/projects/seamailer-2.png", "/projects/seamailer-3.png"],
     year: "2024"
-  }
+  },
+  {
+    title: "Noja360",
+    description: "An all-in-one business management solution. Features tools for customer tracking, invoicing, and employee oversight in a single integrated dashboard.",
+    tags: ["Nuxt", "Typescript", "PWA"],
+    images: ["/projects/noja360-1.png", "/projects/noja360-2.png", "/projects/noja360-3.png"],
+    year: "2022"
+  },
+  {
+    title: "The Barakah Lifestyle NG",
+    description: "Vibrant community fostering spiritual growth, personal development, and sisterhood among Muslim women. Provides a safe space for learning and growing in faith.",
+    tags: ["Nuxt", "Typescript", "Ghost_cms"],
+    images: ["/projects/tblt-1.png", "/projects/tblt-2.png", "/projects/tblt-3.png"],
+    year: "2024"
+  },
+  {
+    title: "Vue Patterns",
+    description: "A comprehensive collection of essential patterns, tips, and best practices for Vue.js development. Provides practical examples and code snippets for common tasks.",
+    tags: ["Vue.js", "Vitepress", "Typescript"],
+    images: ["/projects/vuepatterns-1.png", "/projects/vuepatterns-2.png", "/projects/vuepatterns-3.png"],
+    year: "2022"
+  },
 ]
+// job tracker, 
 
 const activeProject = ref<Project | null>(null)
 const activeImageIndex = ref(0)
