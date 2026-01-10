@@ -30,13 +30,6 @@ export const projects: Project[] = [
         year: "2024"
     },
     {
-        title: "Noja360",
-        description: "An all-in-one business management solution. Features tools for customer tracking, invoicing, and employee oversight in a single integrated dashboard.",
-        tags: ["Nuxt", "Typescript", "PWA"],
-        images: ["/projects/noja360-1.png", "/projects/noja360-2.png", "/projects/noja360-3.png"],
-        year: "2022"
-    },
-    {
         title: "The Barakah Lifestyle NG",
         description: "Vibrant community fostering spiritual growth, personal development, and sisterhood among Muslim women. Provides a safe space for learning and growing in faith.",
         tags: ["Nuxt", "Typescript", "Ghost_cms"],
@@ -44,10 +37,24 @@ export const projects: Project[] = [
         year: "2024"
     },
     {
+        title: "Noja360",
+        description: "An all-in-one business management solution. Features tools for customer tracking, invoicing, and employee oversight in a single integrated dashboard.",
+        tags: ["Nuxt", "Typescript", "PWA"],
+        images: ["/projects/noja360-1.png", "/projects/noja360-2.png", "/projects/noja360-3.png"],
+        year: "2022"
+    },
+    {
         title: "Vue Patterns",
         description: "A comprehensive collection of essential patterns, tips, and best practices for Vue.js development. Provides practical examples and code snippets for common tasks.",
         tags: ["Vue.js", "Vitepress", "Typescript"],
         images: ["/projects/vuepatterns-1.png", "/projects/vuepatterns-2.png", "/projects/vuepatterns-3.png"],
         year: "2022"
-    }
+    },
+    {
+        title: "Traq",
+        description: "A comprehensive accounting solution designed to make financial management easy and effective for businesses.",
+        tags: ["FINTECH", "ACCOUNTING", "SAAS", "WEB APP"],
+        images: ["/projects/traq/hero.png", "/projects/traq/features.png"],
+        year: "2021"
+    },
 ]
